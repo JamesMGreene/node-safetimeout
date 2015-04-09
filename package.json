@@ -1,6 +1,6 @@
 {
   "name": "safetimeout",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Node.js module that wraps `setTimeout`, `clearTimeout`, `setInterval`, and `clearInterval` to safely operate on delays larger than the max 32-bit integer (2147483647).",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   "author": {
     "name": "James M. Greene",
     "email": "james.m.greene@gmail.com",
-    "url": "http://jamesgreene.net/"
+    "url": "http://greene.io/"
   },
   "license": "MIT",
   "bugs": {
