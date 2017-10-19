@@ -2,6 +2,14 @@
 
 # node-safetimeout
 
+## DEPRECATION WARNING
+
+**WARNING!**  This module should be considered deprecated.  If you are seeking this functionality, I recommend utilizing the nearly equivalent [`safe-timers`](https://www.npmjs.com/package/safe-timers) module instead.
+
+---
+
+## Overview
+
 A Node.js module that wraps `setTimeout`, `clearTimeout`, `setInterval`, and `clearInterval` to safely operate on delays greater than the max 32-bit integer (`2147483647`) but less than `Number.MAX_VALUE` (approximately `1.79E+308`). Of course, you can use these safe versions of the functions for delays that are less than the max 32-bit integer, too.
 
 That said, if you need to run a `setTimeout` or `setInterval` with a delay greater than 24.85 days, you may want to rethink your strategy to begin with. This module was mostly made to prove a point. :smirk:
